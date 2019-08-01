@@ -1,0 +1,28 @@
+h1 {
+  /* font-size: 2em; */
+  /* h1 의 기본 폰트 사이즈 */
+  color: lightcoral;
+  /* 디폴트 (16px) 의 50% -> 8px 적용 */
+  /* font-size: 50%; */
+}
+section {
+  font-size: 50%;
+}
+
+section > h2 {
+  color: skyblue;
+  /* 상속의 영향 (section 은 8px
+  -> 8px의 5배 40px */
+  font-size: 5em;
+}
+
+ul {
+  /* 루트 (16px) 의 2배 -> 32px (상속의 영향 x) */
+  font-size: 2rem;
+}
+
+#box {
+  width: 50vw;
+  height: 100vh;
+  background-color: lightblue;
+}
